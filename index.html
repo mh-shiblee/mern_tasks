@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Division Reg Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="viewport">
+        <header>
+            <div id="row">
+                <div class="column"><img style="height: 100px; width: 180px; " src="https://ledp.ictd.gov.bd/global/img/ictdd.png" alt="" srcset=""></div>
+                <div class="column"><img style="width: 200px; height: 100px;padding-left: 15px; " src="https://ledp.ictd.gov.bd/global/img/ledp.apng" alt="" srcset=""></div>
+                <div class="column"><img style="width: 65px; height: 100px;padding-left: 60px; " src="https://i.pinimg.com/736x/3d/58/10/3d5810cff6d3ce73b1837e4ee03ba16e.jpg" alt="" srcset=""></div>
+            </div>
+            <div id="head-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Course Module-2025</a></li>
+                    <li><a href="#">Class Schedule</a></li>
+                    <li><a href="#">Success Story</a></li>
+                    <li><a href="#">Attendance</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </header>
+        <h2 style="color: orange;">Student Registration Form</h2>
+        <hr>
+        <h3>Please enter relevent information</h3>
+        <p style="color: red;">**Mendatory Field**</p>
+
+        <div >
+          <form class="fillup" action="">
+            <div class="left_reg">
+                
+                    <label class="label">District 
+                        <span class="tooltip">(Institute District: Where you want to do your course)</span>
+                        <span class="required">*</span>
+                    </label><br>
+                    <div>
+                        <select id="district" name="District">
+                            <option selected value="">--Select One--</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Cumilla">Cumilla</option>
+                            <option value="Feni">Feni</option>
+                            <option value="Bandarban">Bandarban</option>
+                        </select>
+                    </div>
+                    <label class="label">Course
+                        <span class="required">*</span>
+                    </label><br>
+                    <div>
+                        <select id="Course" name="Course">
+                            <option selected value="">--Select One--</option>
+                            <option value="Web Design and development">Web Design and development</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label" for="student_name">Student Name*</label><br>
+                        <input class="input_c" type="text" name="student_name" id="student_name">
+                    </div>
+                    <div>
+                        <label class="label" for="mother_name">Mother's Name*</label><br>
+                        <input class="input_c" type="text" name="mother_name" id="mother_name">
+                    </div>
+                    <div>
+                        <label class="label" for="father_name">Father's Name*</label><br>
+                        <input class="input_c" type="text" name="father_name" id="father_name">
+                    </div>
+                    <fieldset>
+                      <legend>Date of Birth*</legend>
+                      <table>
+                        <tr>
+                            <th><label class="label">Day:</label></th>
+                            <th><label class="label">Month:</label></th>
+                            <th><label class="label">Year:</label></th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div>
+                                    <select id="day" name="day">
+                                        <option selected value="">--Select One--</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                  </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <select id="month" name="month">
+                                        <option selected value="">--Select One--</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                  </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <select id="year" name="year">
+                                        <option selected value="">--Select One--</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+                                  </div>
+                            </th> 
+                        </tr>
+                      </table>
+                    </fieldset>
+                    <label class="label" for="Gender">Gender*</label>
+                    <input type="radio" name="gender" id="Gender">
+                    <label class="label" for="Gender">Male</label>
+                    <input type="radio" name="gender" id="Gender">
+                    <label class="label" for="Gender">Female</label><br>
+                    <label class="label" for="Handicapped">Physically Handicapped*</label>
+                    <input type="radio" name="p_handi" id="Handicapped">
+                    <label class="label" for="Handicapped">Yes</label>
+                    <input type="radio" name="p_handi" id="Handicapped">
+                    <label class="label" for="Handicapped">No</label>
+                    <div>
+                        <label class="label" for="email">Email*</label><br>
+                        <input class="input_c" type="text" name="father_name" id="email"><br>
+                        <label class="label" for="email">(e.g: example@mail.com)</label>
+                    </div>
+                    <div>
+                        <label class="label" for="P_num">Phone Number(Must be 11 Digits)*</label><br>
+                        <input class="input_c" type="text" name="P_num" id="P_num"><br>
+                        <label class="label" for="P_num">(e.g:0155123456)</label>
+                    </div>
+            </div>
+            
+            <div class="right_reg">
+                <label class="label">Identification Type*</label><br>
+                <div class="id">
+                    <select id="Identification" name="Identification_Type">
+                        <option selected value="">Select One</option>
+                        <option value="birth_cirtificate">Birth Cirtificate No.</option>
+                        <option value="nid">NID No.</option>
+                    </select><br>
+                    <label class="tooltip">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label><br>
+                    <input class="input_c" type="text" name="Identification" id="Identification">
+                </div>
+                <div>
+                    <label class="label">Home District*</label><br>
+                    <div>
+                        <select id="h_district" name="Identification_Type">
+                            <option selected value="">Select One</option>
+                            <option value="dhaka">DHAKA</option>
+                            <option value="rajshahi">Rajshahi</option>
+                        </select>
+                   </div>
+             </div>
+             <div>
+                <label class="label">Upazila*</label><br>
+                <div>
+                    <select id="Upazila" name="Upazila">
+                        <option selected value="">Select One</option>
+                        <option value="dhaka">DHAKA</option>
+                        <option value="rajshahi">Rajshahi</option>
+                    </select>
+               </div>
+         </div>
+         <div>
+            <label class="label" for="">Village/House No./Road No./Other Alternative*</label><br>
+            <input class="input_c" type="text">
+         </div>
+         <div>
+            <label class="label" for="">Post Office*</label><br>
+            <input class="input_c" type="text">
+         </div>
+         <div>
+            <label class="label">Educational Qualification* (Higher Level)*</label><br>
+            <div>
+                <select id="edu" name="edu">
+                    <option selected value="">Select One</option>
+                    <option value="Bachelor">Bachelor</option>
+                    <option value="HSC">HSC</option>
+                    <option value="SSC">SSC</option>
+                </select>
+           </div>
+        </div>
+        <div>
+            <label class="label" for="Handicapped">Have a computer*</label>
+                    <input type="radio" name="p_handi" id="Handicapped">
+                    <label class="label" for="Handicapped">Yes</label>
+                    <input type="radio" name="p_handi" id="Handicapped">
+                    <label class="label" for="Handicapped">No</label>
+        </div>
+        <div>
+            <label class="label" for="Photograph">Photograph*</label><br>
+            <input type="file" name="" id="Photograph"><br>
+            <label class="label" for="Photograph">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</label>
+        </div>
+        <div>
+            <label class="label" for="Signature">Signature*</label><br>
+            <input type="file" name="" id="Signature"><br>
+            <label class="label" for="Signature">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</label>
+        </div>
+        </form>
+        <div class="submit_btn">
+            <button class="button4">Submit Data</button>
+        </div>  
+      </div>
+     </div>
+</body>
+</html>
