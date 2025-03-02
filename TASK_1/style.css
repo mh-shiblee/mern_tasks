@@ -1,0 +1,153 @@
+
+body{
+    font-family: 'Open Sans';
+    padding: 10px 120px;
+    padding-bottom: 10px;
+    background-color: #F6F0F0;
+    
+}
+.head-img{
+    padding: 0px 150px;
+}
+header{
+    background-color: #F6F0F0;
+}
+table{
+    border: 1px;
+}
+
+#head-nav {
+    background-color: #F2E2B1;
+    padding: 10px 0;
+}
+
+
+#head-nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;  
+    
+}
+
+
+#head-nav ul li {
+    padding: 10px 20px; 
+}
+
+
+#head-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans' ;
+}
+
+
+#head-nav ul li a:hover {
+    color: #007bff; 
+}
+
+#row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+  .ccolumn1{
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.label {
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+    font-family: 'Open Sans' ;
+}
+.tooltip {
+    font-size: 12px;
+    color: gray;
+    font-family: 'Open Sans' ;
+}
+.required {
+    color: gray;
+}
+.fillup{
+    display: flex;
+    font-family: 'Open Sans' ;
+}
+fieldset {
+    border: 1px solid #000;
+    font-family: 'Open Sans' ;
+}
+
+  .left_reg{
+    
+    font-family: 'Open Sans' ;
+    width: 47%;
+    padding-right: 80px;
+    
+  }
+  .right_reg{
+    border-left: 1px solid #ccc;
+    padding-left: 2%;
+    width: 47%;
+    font-family: 'Open Sans' ;
+    
+    
+  }
+  .id{
+    width: 450px;
+  }
+  select{
+    width: 100%;
+    height: 20%;
+    background: -webkit-linear-gradient(#FFFFFF 20%, #F6F6F6 90%, #EEEEEE 52%, #F4F4F4 100%);
+    border: 1px solid #ddd;
+    height: 30px;
+    color: #444;
+    padding: 0px 2%;
+  }
+  div{
+    font: 15px 'Open Sans', Tahoma;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    text-align: left
+  }
+  .input_c{
+    width: 100%;
+    height: 20%;
+    border: 1px solid #ddd;
+    height: 30px;
+  }
+
+  .submit_btn{
+    padding: 10px;
+  }
+
+  .button4{
+   
+   border: none;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   border-radius: 12px;
+   background-color: white;
+   color: black;
+   border: 2px solid #e7e7e7;
+  }
+
+  .button4:hover{
+    background-color: #e7e7e7
+  }
