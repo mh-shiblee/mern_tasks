@@ -1,1 +1,1 @@
-
+this folder contains one html and css file which i have created to clone a registration site where i have used various tags sich as divs,table,ul,li,anchor etc to give the structure and to design it i have used inline css and external css..
