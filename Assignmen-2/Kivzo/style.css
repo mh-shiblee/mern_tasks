@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(255, 255, 248);
+    margin: 5px 10px;
+}
+.hero{
+    margin: 10px 25px;
+}
+
+.hero_img{
+    height: 400px;
+    width: 860px;
+}
+
+
+
+.category_img{
+    height: 200px;
+    width: 200px;
+}
+
+.LATEST_news{
+    background-color: #F08F64; 
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.news_content{
+    padding: 70px 37px;
+}
+
+.news_imgb{
+    height: 300px;
+    width: 350px;
+}
+.news_img{
+    height: 120px;
+    width: 170px;
+}
+
+.Technology{
+    margin: 50px 37px;
+}
+
+.tech_img{
+    height: 200px;
+    width: 350px;
+}
+
+.tech_imgb{
+    width: 400px;
+}
+
+.hover_img{
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.bottom-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.hover-container:hover .bottom-overlay {
+  opacity: 1;
+}
+.team_img{
+    width: 350px;
+    height: 380px;
+}
+
+.podcast_imgc{
+    width: 100%;
+    height: 465px;
+    padding: 0px;
+}
+
+.podcast_imgr{
+    width: 400px;
+    height: 220px;
+    padding: 0px;
+
+}
